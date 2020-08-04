@@ -1,10 +1,10 @@
-const mongoose = reuire('moongoose');
+const mongoose = require('mongoose');
 
 
 const userSchema = mongoose.Schema({
     name: {
-        tpye: String,
-        malength: 50
+        type: String,
+        maxlength: 50
     },
     email: {
         type: String,
